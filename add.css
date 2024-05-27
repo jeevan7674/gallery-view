@@ -1,0 +1,34 @@
+body{
+    background-size: cover;
+}
+.main{
+    display:grid;
+    grid-template-columns: repeat(2, 1fr);
+    text-align: center; 
+    grid-column-gap:20px;
+    grid-row-gap:40px;
+    
+
+}
+
+.text{
+    font-size: small;
+}
+img{
+    width: 30vw;
+    height: 30vw;
+    border-style:2px solid white;
+    margin-bottom: 0px;
+    transition: 0.2s;
+    border-radius: 10px;
+}
+
+.logo:hover{
+    z-index: 2;
+    border: 3px solid black;
+    transform: scale(1.05);
+}
+.nn img{
+    width: 10%;
+    height: 10%;
+}
