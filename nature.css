@@ -48,8 +48,8 @@
     margin: 3px;
     border-width: 3px;
     border-color: black;
-    width: 300px;
-    height: 300px;
+    width: 360px;
+    height: 360px;
   }
   body{
     background-color: antiquewhite;
@@ -154,3 +154,35 @@ button:hover{
     color: #fff;
     text-decoration: none;
   }
+@media only screen and (max-width: 1024px) {
+  .footer-container > div {
+    width: 30%;
+}
+
+@media only screen and (max-width: 768px) {
+  .footer-container > div {
+    width: 45%;
+  }
+
+  header {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  h1 {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+
+  .search {
+    margin-top: 10px;
+  }
+
+  .title {
+    font-size: medium;
+  }
+}
+.socialIcons {
+  display: flex;
+  justify-content: center;
+}
